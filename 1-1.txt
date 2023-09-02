@@ -1,0 +1,31 @@
+8
+6
+1 1 1 1 1 1
+1 2 5 1 6 1
+1 1 1 3 0 1
+1 3 1 0 1 1
+1 0 1 0 1 0
+1 3 1 3 1 0
+1 0 0 0 0 6
+1 1 1 1 1 0
+4:0:1:2:
+Green Slime:1:3:1:
+Green Slime:1:5:1:
+Green Slime:1:5:3:
+Golden Slime:2:2:3:
+Merchant Wang:1:2:12:
+Help me!
+Slimes suddenly spawned and trapped me in this corner!
+I'm too weak to fight on my own. Please help me defeat those slimes. 
+...
+It seems like you don't have any equipment.
+Life is more important than some rare equipments. Here, I have some things that may help you
+Give equipments
+Wait
+Are the slimes gone now?
+Oh, thank you. Now I can finally return to my village!
+Feel free to come to the village later. I'll be sure to award you for your bravery.
+Just walk to the "Ø" symbol on the map. That's the portal to the village.
+1:4:village:5:3:
+6:5:n/a:0:0:
+

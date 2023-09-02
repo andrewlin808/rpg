@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=Character
+comment1.params=name
+comment1.target=Character(java.lang.String)
+comment1.text=\n\ Subclass\ Character\ Constructor\ ->\ "new\ Character"\n\ <p>\n\ Call\ to\ super\ initializes\ instances\ in\ Class\ Entity\n\ <p>\n\ Additionally\ initializes\ experience\ and\ stats.\n\ \n\ @param\ name\ Character's\ name\n
+comment10.params=
+comment10.target=java.lang.String\ getSymbol()
+comment11.params=
+comment11.target=java.lang.String\ toString()
+comment2.params=data
+comment2.target=Character(java.lang.String[])
+comment2.text=\ \n\ Subclass\ Character\ Constructor\ ->\ when\ loading\ saved\ Player\n\ <p>\n\ Call\ to\ super\ initializes\ instances\ in\ Class\ Entity\n\ <p>\n\ Additionally\ initializes\ experience\ and\ stats\n\ \n\ @param\ data\ the\ array\ containing\ exact\ param\ name,\ level,\ hit\ point,\ max\ hit\ point,\ strength,\ defense\ of\ Character\n
+comment3.params=opp\ val
+comment3.target=void\ addXP(Entity,\ int)
+comment3.text=\n\ Add\ experience\ to\ Character\ and\ level\ up\ if\ necessary\n\ <p>\n\ If\ given\ Entity\:\ increase\ experience\ by\ 1\ &&\ if\ Entity's\ level\ is\ greater\ than\n\ Character,\ add\ additional\ experience\ based\ how\ many\ levels\ Entity\ is\ greather\ than\n\ Character\ +\ addtional\ 1\ value\ per\ 5\ of\ Entity's\ level,\ which\ is\ then\ squared.\n\ <p>\n\ If\ given\ just\ param\ val\:\ increase\ experience\ of\ Character\ by\ param\ val\n\ <p>\n\ While\ Character's\ experience\ is\ greater\ than\ the\ power\ of\ 2\ of\ the\ Character's\ next\ level,\ \n\ level\ up\ the\ Character\:\ hit\ point\ +\=\ 3~5\ |\ strength\ +\=\ 2~4\ |\ defense\ +\=\ 2~4\ (per\ level).\n\ "Reset"\ the\ prior\ experience\ value\ based\ on\ the\ value\ of\ Character's\ current\ (new)\ level\ squared.\n
+comment4.params=direction\ room
+comment4.target=void\ move(java.lang.String,\ Map)
+comment4.text=\n\ Moves\ Character\ in\ a\ specified\ direction\ 1\ space\ on\ a\ given\ Map\ and\ print\ the\ Map;\ see\:\ Map.canMove()\n\ <p>\n\ Precondition\:\ Character's\ location\ will\ not\ be\ on\ the\ edges\ of\ the\ Map\n\ <p>\n\ Character\ can\ only\ move\ to\ a\ Mappable\ Path\ location\ and\ uses\ w/a/s/d\ to\ move\n\ \n\ @param\ direction\ the\ direction\ to\ move\ to\n
+comment5.params=add
+comment5.target=void\ addStats(int[])
+comment5.text=\n\ Add\ stats\ to\ Character's\ max\ hit\ point,\ strength,\ and\ defense\ based\ on\ an\ Equipment's\ stats;\ See\ also\:\ Player.equip()\n\n\ @param\ add\ the\ stats\ of\ the\ Equipment\ to\ add\ \n
+comment6.params=minus
+comment6.target=void\ removeStats(int[])
+comment6.text=\n\ Substract\ stats\ to\ Character's\ max\ hit\ point,\ strength,\ and\ defense\ based\ on\ an\ Equipment's\ stats;\ See\ also\:\ Player.unequip()\n\n\ @param\ minus\ the\ stats\ of\ the\ Equipment\ to\ subtract\ \n
+comment7.params=
+comment7.target=int\ getXP()
+comment8.params=
+comment8.target=java.lang.String\ getXPs()
+comment9.params=
+comment9.target=int\ interactableID()
+numComments=12

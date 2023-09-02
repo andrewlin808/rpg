@@ -1,0 +1,29 @@
+Class documentation
+<---- javadoc command: ---->
+/Users/Andrew/Desktop/APCS/BlueJ.app/Contents/JDK/Home/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+11
+-classpath
+/Users/Andrew/Desktop/APCS/BlueJ.app/Contents/Resources/Java/bluejcore.jar:/Users/Andrew/Desktop/APCS/BlueJ.app/Contents/Resources/Java/junit-4.11.jar:/Users/Andrew/Desktop/APCS/BlueJ.app/Contents/Resources/Java/hamcrest-core-1.3.jar:/Users/Andrew/Desktop/APCS/BlueJ.app/Contents/Resources/Java/lang-stride.jar:/Users/Andrew/Desktop/APCS/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.base.jar:/Users/Andrew/Desktop/APCS/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.controls.jar:/Users/Andrew/Desktop/APCS/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.fxml.jar:/Users/Andrew/Desktop/APCS/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.graphics.jar:/Users/Andrew/Desktop/APCS/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.media.jar:/Users/Andrew/Desktop/APCS/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.properties.jar:/Users/Andrew/Desktop/APCS/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.swing.jar:/Users/Andrew/Desktop/APCS/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.web.jar:/Users/Andrew/Desktop/APCS/BlueJ Projects/RPG
+-d
+/Users/Andrew/Desktop/APCS/BlueJ Projects/RPG/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+/Users/Andrew/Desktop/APCS/BlueJ Projects/RPG/Test.java
+<---- end of javadoc command ---->
+Loading source file /Users/Andrew/Desktop/APCS/BlueJ Projects/RPG/Test.java...
+/Users/Andrew/Desktop/APCS/BlueJ Projects/RPG/Test.java:16: error: ';' expected
+        b = !falsel
+                   ^
+1 error

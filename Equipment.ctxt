@@ -1,0 +1,37 @@
+#BlueJ class context
+comment0.target=Equipment
+comment1.params=type\ lv
+comment1.target=Equipment(int,\ int)
+comment1.text=\n\ Class\ Equipment\ Constructor\ ->\ for\ random\ generated\ Equipment;\ see\:\ loadRarity()\ /\ loadStats()\n\ <p>\n\ Call\ to\ super\ initializes\ a\ ""\ name\ and\ a\ quantity\ of\ 1.\n\ <p>\n\ Additionally\ initializes\ the\ loc\ in\ String[][][]\ equipments,\ name\ based\ on\ its\ location,\n\ a\ random\ rarity,\ stars\ based\ on\ the\ rarity,\ and\ stats\ based\ on\ the\ loc\ in\ int[][][][]\ equipmentStats.\n\ \n\ @param\ type\ 0\ for\ body\ armor\ ;\ 1\ for\ accessories\n\ @param\ lv\ Character's\ level\n
+comment10.params=
+comment10.target=int\ getStars()
+comment11.params=
+comment11.target=int\ getDurability()
+comment12.params=
+comment12.target=int[]\ getLocation()
+comment13.params=
+comment13.target=int[]\ getStats()
+comment14.params=
+comment14.target=java.lang.String\ toString()
+comment2.params=name\ rar
+comment2.target=Equipment(java.lang.String,\ int)
+comment2.text=\n\ Class\ Equipment\ Constructor\ ->\ when\ specifying\ which\ Equipment\ to\ construct;\ see\:\ loadRarity()\ /\ loadStats()\n\ <p>\n\ Call\ to\ super\ initializes\ name\ based\ on\ param\ name\n\ <p>\n\ Search\ through\ the\ String[][][]\ equipments\ based\ on\ param\ name\ ->\ initializes\ loc\ based\ on\ its\ location\ \n\ ->\ rarity\ based\ on\ param\ rar,\ stars\ based\ on\ the\ rarity,\ and\ stats\ based\ on\ the\ loc\ in\ int[][][][]\ equipmentStats.\n\ \n\ @param\ name\ the\ name\ of\ the\ Equipment\ (Item)\n\ @param\ rar\ the\ rarity/stars\ to\ give\ to\ Equipment\n
+comment3.params=toConvert
+comment3.target=Equipment(Item)
+comment3.text=\n\ Class\ Equipment\ Constructor\ ->\ for\ converting\ an\ Item\ to\ an\ Equipment;\ used\:\ Player.openInterface()\n\ <p>\n\ call\ to\ super\ initializes\ name\ of\ Equipment\n\ <p>\n\ Additionally\ initializes\ stars,\ rarity,\ stats,\ and\ loc\ based\ on\ param\ toConvert's\ instances\n\ \n\ @param\ toConvert\ Item\ to\ convert\ to\ Equipment\n
+comment4.params=
+comment4.target=void\ loadStats()
+comment4.text=\n\ Initializes\ int[]\ stats\ based\ on\ loc\n\ <p>\n\ Additional\ stats\ is\ added\ based\ on\ rarity\ (stars)\:\ \n\ loc[1]\ (y\ value\ of\ String[][][]\ equipments)\ *\ stars\ +\ (stars\ -\ 1)\n
+comment5.params=rar
+comment5.target=void\ loadRarity(int)
+comment5.text=\n\ Initializes\ String\ rarity\ based\ on\ param\ rar\n\ <p>\n\ 1)\ If\ param\ rar\ \=\=\ -1,\ randomize\ rarity\:\ Unique(7)\:\ 1%\ |\ Archaic(6)\:\ 2%\ |\ \n\ Legendary(5)\:\ 3%\ |\ Epic(4)\:\ 5%\ |\ Rare(3)\:\ 10%\ |\ Uncommon(2)\:\ 19%\ |\ Common(1)\:\ 60%\n\ <p>\n\ 2)\ if\ param\ rar\ given\:\ initializes\ rarity\ accordingly\n\ \n\ @param\ rar\ the\ rarity\ of\ Equipment;\ -1\ to\ randomize\ rarity\n
+comment6.params=lv
+comment6.target=int\ getCost(int)
+comment6.text=\n\ Get\ the\ cost\ of\ an\ Equipment\ based\ on\ Character's\ level.\ \n\ <p>\n\ Cost\ of\ Equipment\ is\ Character's\ level\ *\ 50\ *\ rarity\ (stars)\n\ \n\ @param\ lv\ Character's\ level\n\ @return\ the\ cost\ of\ an\ Equipment\n
+comment7.params=
+comment7.target=java.lang.String\ getDurabilities()
+comment8.params=
+comment8.target=java.lang.String\ getRarity()
+comment9.params=val
+comment9.target=void\ setDurability(int)
+numComments=15

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MediaFile
+comment0.text=\n\ Convenience\ class\ for\ getting\ input\ from\ a\ text\ file.\n\ You\ do\ not\ need\ to\ understand\ the\ code,\ but\ should\ understand\n\ the\ purpose\ of\ each\ method\ in\ this\ class.\n\ \n\ @author\ ckinnard\ (Modified\ by\ STakahashi)\n\ @version\ 9/15/19\n
+comment1.params=file
+comment1.target=void\ setInputFile(java.lang.String)
+comment1.text=\n\ Changes\ the\ name\ of\ the\ file\ that\ will\ be\ read.\n\ There\ should\ be\ no\ spaces\ in\ the\ name\ and\ this\ \n\ method\ automatically\ appends\ .txt\ to\ the\ name.\n\ \n\ @param\ file\ the\ name\ of\ the\ file\ name\ without\ .txt\n
+comment2.params=file
+comment2.target=void\ setOutputFile(java.lang.String)
+comment2.text=\n\ Changes\ the\ name\ of\ the\ file\ that\ will\ be\ written.\n\ There\ should\ be\ no\ spaces\ in\ the\ name\ and\ this\ \n\ method\ automatically\ appends\ .txt\ to\ the\ name.\n\ \n\ @param\ file\ the\ name\ of\ the\ file\ name\ without\ .txt\n
+comment3.params=
+comment3.target=java.lang.String\ readString()
+comment3.text=\n\ Opens\ a\ file\ to\ be\ used\ for\ input\ (if\ not\ already\ open),\n\ reads\ a\ line\ from\ the\ file,\ and\ returns\ the\ entire\ line\ of\ data.\n\ \n\ @return\ a\ line\ of\ text\ from\ the\ input\ file\n
+comment4.params=s\ newLine
+comment4.target=void\ writeString(java.lang.String,\ boolean)
+comment4.text=\n\ Opens\ a\ file\ to\ be\ used\ for\ output\ (if\ not\ already\ open),\n\ writes\ a\ string\ to\ the\ file\ and\ then\ writes\ a\ newline.\n\ \n\ @param\ s\ The\ string\ text\ to\ be\ written.\ Follwing\ the\ string,\ a\ newline\ is\ added\ to\ the\ file.\n
+comment5.params=
+comment5.target=void\ saveAndClose()
+comment5.text=\n\ Saves\ and\ closes\ the\ file\ (when\ opened\ for\ either\ input\ or\ output).\ \n\ \n\ Note\:\ If\ the\ program\ terminates\ before\ the\ file\ is\ closed,\n\ no\ data\ will\ be\ saved\ or\ written\ to\ the\ file.\n
+numComments=6

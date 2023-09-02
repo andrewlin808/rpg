@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Monster
+comment1.params=name\ level\ r\ c
+comment1.target=Monster(java.lang.String,\ int,\ int,\ int)
+comment1.text=\n\ Class\ Monster\ Constructor\ ->\ loaded\ from\ .txt\ files\n\ <p>\n\ Call\ to\ super\ initializes\ type\ to\ Monster,\ name,\ level,\ row\ and\ col\ of\ Class\ mappable.\n\ \n\ @param\ name\ the\ name\ of\ Monster\n\ @param\ level\ the\ level\ of\ Monster\n\ @param\ r\ the\ row\ of\ Monster\n\ @param\ c\ the\ column\ of\ Monster\n
+comment2.params=player
+comment2.target=void\ attack(Player)
+comment2.text=\n\ Monster\ attacks\ against\ a\ Character\n\ <p>\n\ Values\ of\ Monster's\ attack/Character's\ defense\ are\ randomized\ \n\ from\ half\ of\ Monster's\ strength/Character's\ defense\ up\ to\ full\ values,\ respectively.\n\ Deal\ damage\ and\ subtract\ Character's\ hit\ point\ accordingly.\n\ <p>\n\ With\ Monster's\ attack\ being\ less\ than\ Character's\ defense,\ Monster's\ level\ being\ 5\ higher\ than\n\ Character's\ level\ &&\ value\ of\ the\ difference\ in\ damage\ is\ less\ or\ equal\ to\ 5,\ 1\ damage\ is\ dealt\n\ to\ Character\ as\ recoil\ damage.\n\ <P>\n\ Equipments'\ durabilities\ are\ decreased\ according\ Player.equipmentUsed().\n\ \n\ @param\ opp\ Character\ to\ attack\ against\n
+comment3.params=
+comment3.target=java.lang.String\ getSymbol()
+comment4.params=
+comment4.target=int\ interactableID()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6
